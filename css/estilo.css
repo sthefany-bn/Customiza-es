@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+:root{
+    --primary: #FFA983;
+    --gray: #e5e5e5;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+/*INDEX*/
+.icon {
+    width: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*PRINCIPAL*/
+header {
+    background-color: var(--primary);
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.title {
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+.db {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.db img {
+    width: 20rem;
+    height: auto;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a img {
+    width: 3rem;
+    height: auto;
+}
+
+/*SUGEST*/
+.coment {
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+main form {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+label {
+    margin-left: 1rem;
+    margin-bottom: -0.5rem;
+    font-size: larger;
+    font-weight: 800;
+}
+
+input, textarea{
+    padding: 15px;
+    margin: 1rem;
+    border-radius: 5px;
+    border-color: var(--black);
+    font-size: large;
+}
+
+button {
+    margin: 1rem;
+    font-size: 1.2rem;
+    color: var(--white);
+    border-color: transparent;
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+/*SUCESSO*/
+.seta {
+    color: var(--black);
+    font-size: 1.4rem;
+    text-decoration: none;
+    
+    margin-top: 40%;
+}
+
+.feito {
+    margin: 1rem;
+}
+
+.esp {
+    margin: 40% auto;
+}
+
+.mens {
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+}
+
