@@ -51,6 +51,7 @@ header {
 footer {
     display: flex;
     justify-content: flex-end;
+    position: fixed;
 }
 
 footer a img {
